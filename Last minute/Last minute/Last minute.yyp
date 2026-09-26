@@ -19,7 +19,10 @@
   },
   "name":"Last minute",
   "resources":[
+    {"id":{"name":"char","path":"objects/char/char.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"character","path":"sprites/character/character.yy",},},
+    {"id":{"name":"lab_background","path":"sprites/lab_background/lab_background.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
