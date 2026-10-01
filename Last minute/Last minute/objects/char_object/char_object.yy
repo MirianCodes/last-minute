@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"char",
+  "%Name":"char_object",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"char",
+  "name":"char_object",
   "overriddenProperties":[],
   "parent":{
     "name":"Last minute",
@@ -30,12 +30,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"character",
-    "path":"sprites/character/character.yy",
+    "name":"char_frontwalk",
+    "path":"sprites/char_frontwalk/char_frontwalk.yy",
   },
   "spriteMaskId":{
-    "name":"character",
-    "path":"sprites/character/character.yy",
+    "name":"char_frontwalk",
+    "path":"sprites/char_frontwalk/char_frontwalk.yy",
   },
   "visible":true,
 }

@@ -19,9 +19,10 @@
   },
   "name":"Last minute",
   "resources":[
-    {"id":{"name":"char","path":"objects/char/char.yy",},},
+    {"id":{"name":"char_object","path":"objects/char_object/char_object.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"character","path":"sprites/character/character.yy",},},
+    {"id":{"name":"char_frontwalk","path":"sprites/char_frontwalk/char_frontwalk.yy",},},
+    {"id":{"name":"char_sidewalk","path":"sprites/char_sidewalk/char_sidewalk.yy",},},
     {"id":{"name":"lab_background","path":"sprites/lab_background/lab_background.yy",},},
   ],
   "resourceType":"GMProject",
