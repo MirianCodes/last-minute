@@ -11,8 +11,6 @@ var v_speed = move_down - move_up;
 
 // Move the player
 var move_speed = 1; 
-x += h_speed * move_speed;
-y += v_speed * move_speed;
 
 
 if (h_speed != 0 || v_speed != 0) {
@@ -40,5 +38,5 @@ if (h_speed != 0) {
     image_index = 0; 
 }
 
-
+move_and_collide(h_speed * move_speed ,v_speed * move_speed,gurney_obj);
 
