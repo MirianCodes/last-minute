@@ -23,6 +23,7 @@
     {"id":{"name":"gurney_obj","path":"objects/gurney_obj/gurney_obj.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"char_backward","path":"sprites/char_backward/char_backward.yy",},},
     {"id":{"name":"char_frontwalk","path":"sprites/char_frontwalk/char_frontwalk.yy",},},
     {"id":{"name":"char_sidewalk","path":"sprites/char_sidewalk/char_sidewalk.yy",},},
     {"id":{"name":"gurney","path":"sprites/gurney/gurney.yy",},},

@@ -37,21 +37,23 @@ if (_move_y != 0) {
 
 //// 4. ANIMATION LOGIC
 if (h_speed != 0 || v_speed != 0) {
-    image_speed = 1;
-    
+  image_speed = 1;
+   
     if (h_speed != 0) {
         sprite_index = char_sidewalk;
         image_xscale = h_speed * -1; 
     } 
     else if (v_speed > 0) {
         sprite_index = char_frontwalk;
-        image_xscale = 1; 
+       image_xscale = 1; 
     } 
     else if (v_speed < 0) {
-        sprite_index = char_frontwalk;
-        image_xscale = 1;
+        sprite_index = char_backward;
+       image_xscale = 1;
     }
 } else {
-    image_speed = 0;
+	image_speed = 0;
     image_index = 0; 
 }
+
+
