@@ -10,7 +10,9 @@
   },
   "defaultScriptType":0,
   "Folders":[],
-  "ForcedPrefabProjectReferences":[],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.gm_filter_tintfilter-1.0.0","name":"io.gamemaker.gm_filter_tintfilter-1.0.0","path":"io.gamemaker.gm_filter_tintfilter-1.0.0.yyp",},
+  ],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -22,6 +24,7 @@
     {"id":{"name":"bathroom_door_obj","path":"objects/bathroom_door_obj/bathroom_door_obj.yy",},},
     {"id":{"name":"char_object","path":"objects/char_object/char_object.yy",},},
     {"id":{"name":"gurney_obj","path":"objects/gurney_obj/gurney_obj.yy",},},
+    {"id":{"name":"monster_door_obj","path":"objects/monster_door_obj/monster_door_obj.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
