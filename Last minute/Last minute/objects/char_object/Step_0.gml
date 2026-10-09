@@ -9,31 +9,6 @@ var v_speed = move_down - move_up;
 
 var move_speed = 1; 
 
-//// 2. HORIZONTAL MOVEMENT & WALL COLLISION
-var _move_x = h_speed * move_speed;
-
-if (_move_x != 0) {
-    if (!place_meeting(x + _move_x, y, obj_wall)) {
-        x += _move_x;
-    } else {
-        while (!place_meeting(x + sign(_move_x), y, obj_wall)) {
-            x += sign(_move_x);
-        }
-    }
-}
-
-//// 3. VERTICAL MOVEMENT & WALL COLLISION
-var _move_y = v_speed * move_speed;
-
-if (_move_y != 0) {
-    if (!place_meeting(x, y + _move_y, obj_wall)) {
-        y += _move_y;
-    } else {
-        while (!place_meeting(x, y + sign(_move_y), obj_wall)) {
-            y += sign(_move_y);
-        }
-    }
-}
 
 //// 4. ANIMATION LOGIC
 if (h_speed != 0 || v_speed != 0) {
@@ -56,5 +31,22 @@ if (h_speed != 0 || v_speed != 0) {
     image_index = 0; 
 }
 
-move_and_collide(h_speed * move_speed ,v_speed * move_speed,gurney_obj);
 
+
+//// 2. HORIZONTAL MOVEMENT & WALL COLLISION
+var _move_x = h_speed * move_speed;
+var _move_y = v_speed * move_speed;
+
+    if (!place_meeting(x + _move_x, y, obj_wall) && !place_meeting(x + _move_x, y, gurney_obj)) {
+        x += _move_x;
+    } 
+    
+
+
+
+//// 3. VERTICAL MOVEMENT & WALL COLLISION
+
+if (!place_meeting(x, y + _move_y, obj_wall) && !place_meeting(x,y  + _move_y, gurney_obj)) {
+        y += _move_y;
+    } 
+    
