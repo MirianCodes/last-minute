@@ -57,4 +57,4 @@ if (h_speed != 0 || v_speed != 0) {
 }
 
 move_and_collide(h_speed * move_speed ,v_speed * move_speed,gurney_obj);
-
+//Testing
