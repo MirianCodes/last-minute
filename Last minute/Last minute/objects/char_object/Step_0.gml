@@ -32,9 +32,12 @@ if (h_speed != 0 || v_speed != 0) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 move_and_collide(h_speed * move_speed ,v_speed * move_speed,gurney_obj);
 //Testing
 =======
+=======
+>>>>>>> f7e476da021d3001c4a9aad29ce81a2f5cac81cd
 
 
 //// 2. HORIZONTAL MOVEMENT & WALL COLLISION
@@ -54,4 +57,7 @@ if (!place_meeting(x, y + _move_y, obj_wall) && !place_meeting(x,y  + _move_y, g
         y += _move_y;
     } 
     
+<<<<<<< HEAD
 >>>>>>> 14a272b2e8e783033f1599bf70ac15a7c7d5da9a
+=======
+>>>>>>> f7e476da021d3001c4a9aad29ce81a2f5cac81cd
