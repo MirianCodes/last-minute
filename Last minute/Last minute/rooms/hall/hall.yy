@@ -1,14 +1,14 @@
 {
   "$GMRoom":"v1",
-  "%Name":"Room2",
+  "%Name":"hall",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_180DA05E","path":"rooms/Room2/Room2.yy",},
-    {"name":"inst_47E27AF5","path":"rooms/Room2/Room2.yy",},
-    {"name":"inst_1275726","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_180DA05E","path":"rooms/hall/hall.yy",},
+    {"name":"inst_47E27AF5","path":"rooms/hall/hall.yy",},
+    {"name":"inst_1275726","path":"rooms/hall/hall.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -24,7 +24,7 @@
         {"name":"g_TintCol","type":1,"value":"#FFCCCCCC",},
       ],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"hallway","path":"sprites/hallway/hallway.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"Room2",
+  "name":"hall",
   "parent":{
     "name":"Last minute",
     "path":"Last minute.yyp",
