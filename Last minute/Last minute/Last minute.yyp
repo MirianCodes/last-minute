@@ -23,6 +23,7 @@
   "resources":[
     {"id":{"name":"bathroom_door_obj","path":"objects/bathroom_door_obj/bathroom_door_obj.yy",},},
     {"id":{"name":"char_object","path":"objects/char_object/char_object.yy",},},
+    {"id":{"name":"code_clue_obj","path":"objects/code_clue_obj/code_clue_obj.yy",},},
     {"id":{"name":"gurney_obj","path":"objects/gurney_obj/gurney_obj.yy",},},
     {"id":{"name":"monster_door_obj","path":"objects/monster_door_obj/monster_door_obj.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
@@ -34,6 +35,7 @@
     {"id":{"name":"char_backward","path":"sprites/char_backward/char_backward.yy",},},
     {"id":{"name":"char_frontwalk","path":"sprites/char_frontwalk/char_frontwalk.yy",},},
     {"id":{"name":"char_sidewalk","path":"sprites/char_sidewalk/char_sidewalk.yy",},},
+    {"id":{"name":"code_clue","path":"sprites/code_clue/code_clue.yy",},},
     {"id":{"name":"gurney","path":"sprites/gurney/gurney.yy",},},
     {"id":{"name":"hallway","path":"sprites/hallway/hallway.yy",},},
     {"id":{"name":"lab_background","path":"sprites/lab_background/lab_background.yy",},},
