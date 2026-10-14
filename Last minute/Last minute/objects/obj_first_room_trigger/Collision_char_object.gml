@@ -1,9 +1,9 @@
-if (!is_unlocked) {
+if (!global.room1_unlocked) {
     if (keyboard_check_pressed(ord("E")) || keyboard_check_pressed(vk_space)) {
         var _entered_code = get_string("Enter the door code:", "");
         
         if (_entered_code == "1234") { 
-            is_unlocked = true;
+            global.room1_unlocked = true; // Unlocked 
             show_message("Door Unlocked!");
             room_goto(hall);
         } else if (_entered_code != "") {
@@ -11,12 +11,12 @@ if (!is_unlocked) {
         }
     }
     
-    // 2. Block player from walking through on normal conditions
+    // Block player from walking through until unlocked
     with (other) {
         x = xprevious;
         y = yprevious;
     }
 } else {
-    // gotohall
+    // Door is unlocked forever
     room_goto(hall);
 }
