@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Main_gameplay_sound",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":192.4702,
+  "exportDir":"",
+  "name":"Main_gameplay_sound",
+  "parent":{
+    "name":"Last minute",
+    "path":"Last minute.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Main_gameplay_sound.mp3",
+  "volume":1.0,
+}

@@ -2,27 +2,24 @@
   "$GMSprite":"v2",
   "%Name":"bathroom_door",
   "bboxMode":0,
-  "bbox_bottom":105,
-  "bbox_left":3,
-  "bbox_right":59,
-  "bbox_top":2,
+  "bbox_bottom":183,
+  "bbox_left":0,
+  "bbox_right":140,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"9762f05a-2de2-4b08-9972-0460c55dc5f6","name":"9762f05a-2de2-4b08-9972-0460c55dc5f6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"78971a11-7b85-4118-adfd-4351e9b105b7","name":"78971a11-7b85-4118-adfd-4351e9b105b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"f27e8976-3397-4db8-b27e-80ba10def0b4","name":"f27e8976-3397-4db8-b27e-80ba10def0b4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"3a91f19d-7401-4325-a518-806fc9fd7a25","name":"3a91f19d-7401-4325-a518-806fc9fd7a25","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3446dce7-aee1-4223-b21b-2b51593861e6","name":"3446dce7-aee1-4223-b21b-2b51593861e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":115,
+  "height":184,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"2bb73a05-98ad-4fcc-b93c-2ab0453e849f","blendMode":0,"displayName":"default","isLocked":false,"name":"2bb73a05-98ad-4fcc-b93c-2ab0453e849f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"dd056e1f-63c0-41b4-80e1-3b2a99dd3789","blendMode":0,"displayName":"default","isLocked":false,"name":"dd056e1f-63c0-41b4-80e1-3b2a99dd3789","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"bathroom_door",
   "nineSlice":null,
@@ -52,7 +49,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":4.0,
+    "length":1.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -72,17 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9762f05a-2de2-4b08-9972-0460c55dc5f6","path":"sprites/bathroom_door/bathroom_door.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4bb092cb-701c-4abf-a0b8-786811a9993d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"78971a11-7b85-4118-adfd-4351e9b105b7","path":"sprites/bathroom_door/bathroom_door.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c19b8ca5-8dfa-40ca-9e1e-c7c642dd3a6a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f27e8976-3397-4db8-b27e-80ba10def0b4","path":"sprites/bathroom_door/bathroom_door.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0e567bc6-61f7-46e2-b206-6876ed5662e1","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3a91f19d-7401-4325-a518-806fc9fd7a25","path":"sprites/bathroom_door/bathroom_door.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"761680e7-9d61-408c-841b-3d4aa6ae8c22","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3446dce7-aee1-4223-b21b-2b51593861e6","path":"sprites/bathroom_door/bathroom_door.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f3d2db7c-6f0e-420b-a607-575bafe1878c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -98,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":90,
+  "width":141,
 }
