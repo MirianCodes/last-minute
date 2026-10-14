@@ -10,7 +10,9 @@ if (!global.room1_unlocked) {
         if (_entered_code == "1234") { 
             global.room1_unlocked = true;
             show_message("Door Unlocked!");
-            room_goto(hall); 
+            global.spawn_x = 95; //updated spawn
+			global.spawn_y = 215;
+			room_goto(hall); 
         } else if (_entered_code != "") {
             show_message("Incorrect passcode!");
         }
@@ -22,5 +24,7 @@ if (!global.room1_unlocked) {
     }
 } else {
     // perm unlock
-    room_goto(hall);
+    global.spawn_x = 95; //updated spawn
+	global.spawn_y = 215;
+	room_goto(hall);
 }
