@@ -18,6 +18,7 @@
     {"name":"inst_5729FFC6","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_44783043","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1C513355","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_15980C5F","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -35,6 +36,7 @@
         {"$GMRInstance":"v4","%Name":"inst_3A311D57","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3A311D57","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":89.507195,"scaleX":1.0,"scaleY":4.976123,"x":138.5,"y":84.004974,},
         {"$GMRInstance":"v4","%Name":"inst_44783043","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_44783043","objectId":{"name":"tool_table_obj","path":"objects/tool_table_obj/tool_table_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":266.00528,"y":172.0,},
         {"$GMRInstance":"v4","%Name":"inst_1C513355","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C513355","objectId":{"name":"obj_first_room_trigger","path":"objects/obj_first_room_trigger/obj_first_room_trigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":42.500877,"y":25.0,},
+        {"$GMRInstance":"v4","%Name":"inst_15980C5F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_15980C5F","objectId":{"name":"obj_knob","path":"objects/obj_knob/obj_knob.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":269.04715,"scaleX":0.2077055,"scaleY":0.265625,"x":138.5,"y":162.70868,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"lab_background","path":"sprites/lab_background/lab_background.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

@@ -1,3 +1,6 @@
+if (!variable_global_exists("held_item")) {
+    global.held_item = "";
+}
 if (instance_exists(char_object)) {
     var _interact_key = keyboard_check_pressed(ord("E")) || keyboard_check_pressed(vk_space);
     var _clicked = mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, id);
@@ -6,8 +9,8 @@ if (instance_exists(char_object)) {
     persistent = is_held; //fixed to room 1
     if (is_held) {
         // Hover beside player 
-        x = char_object.x + 16;
-        y = char_object.y - 12;
+        x = char_object.x + 28;
+        y = char_object.y +2 ;
         depth = char_object.depth - 10;
         
         // 2. Press E or Space to drop item at

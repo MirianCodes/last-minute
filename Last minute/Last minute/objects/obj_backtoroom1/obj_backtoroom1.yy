@@ -34,5 +34,5 @@
     "path":"sprites/first_room_trigger/first_room_trigger.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
