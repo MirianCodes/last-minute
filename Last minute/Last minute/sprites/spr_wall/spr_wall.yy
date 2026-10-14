@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Last minute",
-    "path":"Last minute.yyp",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

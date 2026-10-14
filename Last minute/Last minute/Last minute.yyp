@@ -9,7 +9,10 @@
     "name":"Default",
   },
   "defaultScriptType":1,
-  "Folders":[],
+  "Folders":[
+    {"$GMFolder":"","%Name":"objects","folderPath":"folders/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"rooms","folderPath":"folders/rooms.yy","name":"rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
   "ForcedPrefabProjectReferences":[
     {"link":"io.gamemaker.gm_filter_tintfilter-1.0.0","name":"io.gamemaker.gm_filter_tintfilter-1.0.0","path":"io.gamemaker.gm_filter_tintfilter-1.0.0.yyp",},
   ],
@@ -31,6 +34,7 @@
     {"id":{"name":"obj_first_room_trigger","path":"objects/obj_first_room_trigger/obj_first_room_trigger.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"tool_table_obj","path":"objects/tool_table_obj/tool_table_obj.yy",},},
+    {"id":{"name":"bathroom","path":"rooms/bathroom/bathroom.yy",},},
     {"id":{"name":"hall","path":"rooms/hall/hall.yy",},},
     {"id":{"name":"janitor","path":"rooms/janitor/janitor.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -58,8 +62,9 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"hall","path":"rooms/hall/hall.yy",},},
-    {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
+    {"roomId":{"name":"bathroom","path":"rooms/bathroom/bathroom.yy",},},
     {"roomId":{"name":"janitor","path":"rooms/janitor/janitor.yy",},},
+    {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

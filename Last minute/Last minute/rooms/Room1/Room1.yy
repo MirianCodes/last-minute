@@ -40,8 +40,8 @@
   ],
   "name":"Room1",
   "parent":{
-    "name":"Last minute",
-    "path":"Last minute.yyp",
+    "name":"rooms",
+    "path":"folders/rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
