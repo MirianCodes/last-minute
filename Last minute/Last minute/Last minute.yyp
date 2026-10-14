@@ -31,7 +31,6 @@
     {"id":{"name":"obj_first_room_trigger","path":"objects/obj_first_room_trigger/obj_first_room_trigger.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"tool_table_obj","path":"objects/tool_table_obj/tool_table_obj.yy",},},
-    {"id":{"name":"bathroom","path":"rooms/bathroom/bathroom.yy",},},
     {"id":{"name":"hall","path":"rooms/hall/hall.yy",},},
     {"id":{"name":"janitor","path":"rooms/janitor/janitor.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -43,6 +42,7 @@
     {"id":{"name":"char_sidewalk","path":"sprites/char_sidewalk/char_sidewalk.yy",},},
     {"id":{"name":"code_clue","path":"sprites/code_clue/code_clue.yy",},},
     {"id":{"name":"enemy","path":"sprites/enemy/enemy.yy",},},
+    {"id":{"name":"final_room","path":"sprites/final_room/final_room.yy",},},
     {"id":{"name":"first_room_trigger","path":"sprites/first_room_trigger/first_room_trigger.yy",},},
     {"id":{"name":"gurney","path":"sprites/gurney/gurney.yy",},},
     {"id":{"name":"hallway","path":"sprites/hallway/hallway.yy",},},
@@ -58,7 +58,6 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"hall","path":"rooms/hall/hall.yy",},},
-    {"roomId":{"name":"bathroom","path":"rooms/bathroom/bathroom.yy",},},
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"roomId":{"name":"janitor","path":"rooms/janitor/janitor.yy",},},
   ],
