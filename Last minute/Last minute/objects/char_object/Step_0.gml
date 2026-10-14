@@ -32,10 +32,6 @@ if (h_speed != 0 || v_speed != 0) {
 }
 
 
-
-
-
-
 //// 2. HORIZONTAL MOVEMENT & WALL COLLISION
 var _move_x = h_speed * move_speed;
 var _move_y = v_speed * move_speed;
@@ -45,12 +41,11 @@ var _move_y = v_speed * move_speed;
     } 
     
 
-
-
 //// 3. VERTICAL MOVEMENT & WALL COLLISION
 
 if (!place_meeting(x, y + _move_y, obj_wall) && !place_meeting(x,y  + _move_y, gurney_obj)) {
         y += _move_y;
     } 
+
     
 

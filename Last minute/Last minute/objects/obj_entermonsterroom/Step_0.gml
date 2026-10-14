@@ -1,36 +1,44 @@
-if (place_meeting(x, y, char_object) && keyboard_check_pressed(ord("E"))) {
+if (place_meeting(x, y, char_object)) {
     
-    //Deposit Circuit
+    // deposit battery 
+	if (!global.monster_door_has_battery && global.held_item == "battery") {
+	    global.monster_door_has_battery = true;
+	    global.held_item = "";
+	    global.battery_collected = true; // fixed random spawning
+    
+	    // destory battery after deposit
+	    with (obj_battery) {
+	        instance_destroy();
+	    }
+    
+	    show_message("Deposited Battery! Circuit still needed.");
+	    exit;
+	}
+    
+    // deposit circuit
     if (!global.monster_door_has_circuit && global.held_item == "circuit") {
         global.monster_door_has_circuit = true;
-        global.held_item = ""; 
-        show_debug_message("Circuit deposited.");
-        exit;
-    }
-    
-    // deposit battery
-    if (!global.monster_door_has_battery && global.held_item == "battery") {
-        global.monster_door_has_battery = true;
-        global.held_item = ""; 
-        show_debug_message("Battery deposited.");
-        exit;
-    }
-    
-    // both deposited, weapon warning
-    if (global.monster_door_has_circuit && global.monster_door_has_battery) {
-        if (global.held_item != "weapon") {
-            show_message("WARNING: You hear growling ahead... You might need a weapon!");
+        global.held_item = "";
+        
+        // Remove floating circuit from player
+        if (variable_global_exists("obj_circuit") && instance_exists(obj_circuit)) {
+            instance_destroy(obj_circuit);
         }
         
-        global.spawn_x = 100;
-        global.spawn_y = 150;
-        room_goto(room_monster);
+        show_message("Deposited Circuit! Battery still needed.");
         exit;
     }
     
-    //requirements
-    var _msg = "Locked. Requirements:";
-    _msg += "\n- Circuit: " + (global.monster_door_has_circuit ? "Installed" : "Missing");
-    _msg += "\n- Battery: " + (global.monster_door_has_battery ? "Installed" : "Missing");
-    show_message(_msg);
+    // entering requires battery and circuit
+    if (global.monster_door_has_circuit && global.monster_door_has_battery) {
+        if (keyboard_check_pressed(ord("E"))) {
+            if (global.held_item != "weapon") {
+                show_message("WARNING: You hear growling ahead... You might need a weapon!");
+            }
+            global.spawn_x = 235; 
+            global.spawn_y = 255; 
+            room_goto(Room4);
+            exit;
+        }
+    }
 }
