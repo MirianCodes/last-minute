@@ -2,6 +2,14 @@ global.held_item = "";
 global.room1_unlocked = false;
 global.bathroom_unlocked = false;
 
+//fixed monster door progress 
+if (!variable_global_exists("monster_door_has_circuit")) {
+    global.monster_door_has_circuit = false;
+}
+if (!variable_global_exists("monster_door_has_battery")) {
+    global.monster_door_has_battery = false;
+}
+
 if (!variable_global_exists("spawn_x")) {
     global.spawn_x = -1;
     global.spawn_y = -1;
