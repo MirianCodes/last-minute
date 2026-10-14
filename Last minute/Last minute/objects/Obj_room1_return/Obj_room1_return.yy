@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_room1_return",
-    "path":"sprites/spr_room1_return/spr_room1_return.yy",
+    "name":"spr_room_trigger",
+    "path":"sprites/spr_room_trigger/spr_room_trigger.yy",
   },
   "spriteMaskId":null,
   "visible":false,
