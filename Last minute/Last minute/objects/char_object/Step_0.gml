@@ -33,7 +33,10 @@ if (h_speed != 0 || v_speed != 0) {
 
 
 
+<<<<<<< HEAD
 //Testing22
+=======
+>>>>>>> features
 
 
 //// 2. HORIZONTAL MOVEMENT & WALL COLLISION
