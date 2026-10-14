@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"Main_gameplay_sound",
+  "%Name":"snd_background_music",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,7 +12,7 @@
   "conversionMode":0,
   "duration":192.4702,
   "exportDir":"",
-  "name":"Main_gameplay_sound",
+  "name":"snd_background_music",
   "parent":{
     "name":"Last minute",
     "path":"Last minute.yyp",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Main_gameplay_sound.mp3",
+  "soundFile":"snd_background_music.mp3",
   "volume":1.0,
 }
