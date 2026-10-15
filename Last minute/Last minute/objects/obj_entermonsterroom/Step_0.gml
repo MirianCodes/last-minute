@@ -11,7 +11,11 @@ if (place_meeting(x, y, char_object)) {
 	        instance_destroy();
 	    }
     
-	    show_dialogue("Deposited Battery! Circuit still needed.");
+	    show_dialogue("Deposited Battery!");
+		if(!global.monster_door_has_circuit)
+		{
+			show_dialogue("Circuit still needed.");
+		}
 	    exit;
 	}
     
@@ -25,7 +29,11 @@ if (place_meeting(x, y, char_object)) {
             instance_destroy(obj_circuit);
         }
         
-        show_dialogue("Deposited Circuit! Battery still needed.");
+        show_dialogue("Deposited Circuit!");
+		if(!global.monster_door_has_battery)
+		{
+			show_dialogue("Battery still needed.");
+		}
         exit;
     }
     
