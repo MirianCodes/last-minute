@@ -13,6 +13,9 @@ if (global.input_locked || instance_exists(dialogue_box_obj)) exit;
 
 //// 4. ANIMATION LOGIC
 if (h_speed != 0 || v_speed != 0) {
+		if(!audio_is_playing(Walking_Sound)){
+			audio_play_sound(Walking_Sound,1,false);
+		}
   image_speed = 1;
    
     if (h_speed != 0) {
@@ -27,7 +30,9 @@ if (h_speed != 0 || v_speed != 0) {
         sprite_index = char_backward;
        image_xscale = 1;
     }
-} else {
+}
+else{
+	audio_stop_sound(Walking_Sound);
 	image_speed = 0;
     image_index = 0; 
 }

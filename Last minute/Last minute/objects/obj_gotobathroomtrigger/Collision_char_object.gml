@@ -20,7 +20,9 @@ if (!global.bathroom_unlocked) {
         
         global.spawn_x = 237; 
         global.spawn_y = 212; 
+		audio_play_sound(OpenDoor_Sound, 1, false);
         room_goto(bathroom);
+
         exit;
     } 
     // block player from entering w/no knob
@@ -39,5 +41,6 @@ if (!global.bathroom_unlocked) {
 else {
     global.spawn_x = 237; 
     global.spawn_y = 212;
+	audio_play_sound(OpenDoor_Sound, 1, false);
     room_goto(bathroom);
 }

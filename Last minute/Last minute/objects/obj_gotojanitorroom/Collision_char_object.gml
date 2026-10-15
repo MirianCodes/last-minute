@@ -28,6 +28,7 @@ if (!global.janitor_unlocked) {
         
         global.spawn_x = 271; 
         global.spawn_y = 207; 
+			audio_play_sound(OpenDoor_Sound, 1, false);
         room_goto(janitor); 
         exit;
     } 
@@ -40,5 +41,6 @@ if (!global.janitor_unlocked) {
 else {
     global.spawn_x = 271;
     global.spawn_y = 207;
+		audio_play_sound(OpenDoor_Sound, 1, false);
     room_goto(janitor);
 }
