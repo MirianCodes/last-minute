@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object20",
+  "%Name":"obj_circuit",
   "eventList":[],
   "managed":true,
-  "name":"Object20",
+  "name":"obj_circuit",
   "overriddenProperties":[],
   "parent":{
     "name":"Last minute",
