@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_circuit",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_circuit",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"Last minute",
     "path":"Last minute.yyp",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_knob",
+    "path":"objects/obj_knob/obj_knob.yy",
+  },
   "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
