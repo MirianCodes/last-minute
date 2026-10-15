@@ -4,9 +4,9 @@ if (place_meeting(x, y, char_object)) {
 	if (!global.monster_door_has_battery && global.held_item == "battery") {
 	    global.monster_door_has_battery = true;
 	    global.held_item = "";
-	    global.battery_collected = true; // fixed random spawning
+	    global.battery_collected = true; // Prevents respawning
     
-	    // destory battery after deposit
+	    // Destroy all battery instances
 	    with (obj_battery) {
 	        instance_destroy();
 	    }

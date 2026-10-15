@@ -6,19 +6,24 @@ if (!variable_global_exists("held_item")) {
 }
 
 if (!global.bathroom_unlocked) {
-    // if holding knob, go to bathroom
+    //removed message to save time
     if (global.held_item == "doorknob") {
         global.bathroom_unlocked = true;
         global.held_item = "";
         
-        if (instance_exists(obj_knob)) {
-            instance_destroy(obj_knob);
+        // Destroy knob when open
+        with (obj_knob) {
+            persistent = false;
+            is_held = false;
+            instance_destroy();
         }
         
-        show_message("You attached the doorknob! The bathroom is unlocked.");
+        global.spawn_x = 237; 
+        global.spawn_y = 212; 
         room_goto(bathroom);
+        exit;
     } 
-  //if no knob
+    // block player from entering w/no knob
     else {
         with (other) {
             x = xprevious;
@@ -26,11 +31,13 @@ if (!global.bathroom_unlocked) {
         }
         
         if (keyboard_check_pressed(ord("E")) || keyboard_check_pressed(vk_space)) {
-            show_message("Door is missing knob.");
+            show_message("Door is missing a knob.");
         }
     }
 } 
 // perm unlock
 else {
+    global.spawn_x = 237; 
+    global.spawn_y = 212;
     room_goto(bathroom);
 }
