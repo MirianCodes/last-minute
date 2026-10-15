@@ -18,6 +18,11 @@ if (!variable_global_exists("room1_unlocked")) {
     global.room1_unlocked = false;
 }
 
+//janitor closet door
+if (!variable_global_exists("janitor_unlocked")) {
+    global.janitor_unlocked = false;
+}
+
 if (!variable_global_exists("spawn_x")) {
     global.spawn_x = -1;
     global.spawn_y = -1;
