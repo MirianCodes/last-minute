@@ -10,6 +10,14 @@ if (!variable_global_exists("monster_door_has_battery")) {
     global.monster_door_has_battery = false;
 }
 
+//note variables 
+if (!variable_global_exists("has_note")) {
+    global.has_note = false;
+}
+if (!variable_global_exists("room1_unlocked")) {
+    global.room1_unlocked = false;
+}
+
 if (!variable_global_exists("spawn_x")) {
     global.spawn_x = -1;
     global.spawn_y = -1;
