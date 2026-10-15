@@ -56,6 +56,7 @@
     {"id":{"name":"janitor","path":"rooms/janitor/janitor.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
+    {"id":{"name":"scr_dialogue","path":"scripts/scr_dialogue/scr_dialogue.yy",},},
     {"id":{"name":"scr_trigger_timeloop","path":"scripts/scr_trigger_timeloop/scr_trigger_timeloop.yy",},},
     {"id":{"name":"snd_background_music","path":"sounds/snd_background_music/snd_background_music.yy",},},
     {"id":{"name":"bathroom_door","path":"sprites/bathroom_door/bathroom_door.yy",},},

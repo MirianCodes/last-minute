@@ -31,7 +31,7 @@ if (!global.bathroom_unlocked) {
         }
         
         if (keyboard_check_pressed(ord("E")) || keyboard_check_pressed(vk_space)) {
-            show_message("Door is missing a knob.");
+            show_dialogue("Door is missing a knob.");
         }
     }
 } 

@@ -8,7 +8,7 @@ if (global.held_item != "battery") {
                 global.held_item = "battery";
                 global.battery_collected = true;
             } else {
-                show_message("Your hands are full!");
+                show_dialogue("Your hands are full!");
             }
         }
     }

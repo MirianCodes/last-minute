@@ -33,7 +33,7 @@ if (!global.janitor_unlocked) {
     } 
     // warning when interacted w/o pass
     else if (_interact_key) {
-        show_message("Access Denied: Requires Janitor Pass.");
+        show_dialogue("Access Denied: Requires Janitor Pass.");
     }
 } 
 // Perm unlock

@@ -9,6 +9,7 @@ var v_speed = move_down - move_up;
 
 var move_speed = 1; 
 
+if (global.input_locked || instance_exists(dialogue_box_obj)) exit;
 
 //// 4. ANIMATION LOGIC
 if (h_speed != 0 || v_speed != 0) {

@@ -11,7 +11,7 @@ if (place_meeting(x, y, char_object)) {
 	        instance_destroy();
 	    }
     
-	    show_message("Deposited Battery! Circuit still needed.");
+	    show_dialogue("Deposited Battery! Circuit still needed.");
 	    exit;
 	}
     
@@ -25,7 +25,7 @@ if (place_meeting(x, y, char_object)) {
             instance_destroy(obj_circuit);
         }
         
-        show_message("Deposited Circuit! Battery still needed.");
+        show_dialogue("Deposited Circuit! Battery still needed.");
         exit;
     }
     
@@ -33,7 +33,7 @@ if (place_meeting(x, y, char_object)) {
     if (global.monster_door_has_circuit && global.monster_door_has_battery) {
         if (keyboard_check_pressed(ord("E"))) {
             if (global.held_item != "weapon") {
-                show_message("WARNING: You hear growling ahead... You might need a weapon!");
+                show_dialogue("WARNING: You hear growling ahead... You might need a weapon!");
             }
             global.spawn_x = 235; 
             global.spawn_y = 255; 

@@ -37,7 +37,7 @@ if (instance_exists(char_object)) {
                 is_held = true;
                 global.held_item = "janitorpass";
             } else {
-                show_message("Your hands are full!");
+                show_dialogue("Your hands are full!");
             }
         }
     }
