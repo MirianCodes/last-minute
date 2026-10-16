@@ -46,6 +46,7 @@
     {"id":{"name":"obj_backtoroom1","path":"objects/obj_backtoroom1/obj_backtoroom1.yy",},},
     {"id":{"name":"obj_bathroommirror","path":"objects/obj_bathroommirror/obj_bathroommirror.yy",},},
     {"id":{"name":"obj_battery","path":"objects/obj_battery/obj_battery.yy",},},
+    {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"obj_circuit","path":"objects/obj_circuit/obj_circuit.yy",},},
     {"id":{"name":"obj_entermonsterroom","path":"objects/obj_entermonsterroom/obj_entermonsterroom.yy",},},
     {"id":{"name":"obj_first_room_trigger","path":"objects/obj_first_room_trigger/obj_first_room_trigger.yy",},},

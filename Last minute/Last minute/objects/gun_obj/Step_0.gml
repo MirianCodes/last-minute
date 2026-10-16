@@ -29,7 +29,7 @@ if (instance_exists(char_object)) {
         if (_clicked) {
             if (global.held_item == "") {
                 is_held = true;
-                global.held_item = "gun";
+                global.held_item = "weapon";
                 global.gun_collected = true;
             }
         }
