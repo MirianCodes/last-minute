@@ -58,6 +58,7 @@
     {"id":{"name":"obj_janitorexittrigger","path":"objects/obj_janitorexittrigger/obj_janitorexittrigger.yy",},},
     {"id":{"name":"obj_janitorpass","path":"objects/obj_janitorpass/obj_janitorpass.yy",},},
     {"id":{"name":"obj_knob","path":"objects/obj_knob/obj_knob.yy",},},
+    {"id":{"name":"obj_light_control","path":"objects/obj_light_control/obj_light_control.yy",},},
     {"id":{"name":"Obj_room1_return","path":"objects/Obj_room1_return/Obj_room1_return.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"tool_table_obj","path":"objects/tool_table_obj/tool_table_obj.yy",},},
