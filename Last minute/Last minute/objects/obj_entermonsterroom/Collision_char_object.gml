@@ -1,8 +1,6 @@
+//cleared dialogue to hopefully fix endless loop 
 if (!variable_global_exists("monster_door_has_battery")) global.monster_door_has_battery = false;
 if (!variable_global_exists("monster_door_has_circuit")) global.monster_door_has_circuit = false;
-
-var _interact_key = keyboard_check_pressed(ord("E")) || keyboard_check_pressed(vk_space);
-var _dialogue_open = variable_global_exists("dialogue_active") && global.dialogue_active;
 
 // deposit battery
 if (!global.monster_door_has_battery && global.held_item == "battery") {
@@ -27,8 +25,6 @@ if (!global.monster_door_has_circuit && (global.held_item == "circuit" || global
 
 // entry
 if (global.monster_door_has_battery && global.monster_door_has_circuit) {
-    show_debug_message("--- ENTERING ROOM 4 NOW ---");
-
     global.spawn_x = 240;
     global.spawn_y = 220;
 
@@ -40,24 +36,3 @@ if (global.monster_door_has_battery && global.monster_door_has_circuit) {
     room_goto(Room4);
     exit;
 }
-
-// dialogue
-if (_dialogue_open) exit;
-
-if (_interact_key && global.held_item != "") {
-    show_dialogue(["That doesn't go here!"]);
-    exit;
-}
-
-if (_interact_key) {
-    if (!global.monster_door_has_battery && !global.monster_door_has_circuit) {
-        show_dialogue(["The door is unpowered.", "Needed items: Battery and Circuit."]);
-    } 
-    else if (!global.monster_door_has_battery) {
-        show_dialogue(["Circuit installed.", "Still needed: Battery."]);
-    } 
-    else if (!global.monster_door_has_circuit) {
-        show_dialogue(["Battery installed.", "Still needed: Circuit."]);
-    }
-}
-
