@@ -8,8 +8,8 @@
   "name":"Obj_room1_return",
   "overriddenProperties":[],
   "parent":{
-    "name":"Last minute",
-    "path":"Last minute.yyp",
+    "name":"Triggers",
+    "path":"folders/Triggers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

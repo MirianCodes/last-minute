@@ -9,6 +9,8 @@ var v_speed = move_down - move_up;
 
 var move_speed = 1; 
 
+var running = keyboard_check(vk_shift);
+
 if (global.input_locked || instance_exists(dialogue_box_obj)) exit;
 
 //// 4. ANIMATION LOGIC
@@ -41,6 +43,10 @@ else{
 //// 2. HORIZONTAL MOVEMENT & WALL COLLISION
 var _move_x = h_speed * move_speed;
 var _move_y = v_speed * move_speed;
+if(running){
+_move_x *= 2;
+_move_y *= 2;
+}
 
     if (!place_meeting(x + _move_x, y, obj_wall) && !place_meeting(x + _move_x, y, gurney_obj)) {
         x += _move_x;

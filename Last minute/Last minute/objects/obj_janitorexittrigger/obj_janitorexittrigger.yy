@@ -8,8 +8,8 @@
   "name":"obj_janitorexittrigger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Last minute",
-    "path":"Last minute.yyp",
+    "name":"Triggers",
+    "path":"folders/Triggers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

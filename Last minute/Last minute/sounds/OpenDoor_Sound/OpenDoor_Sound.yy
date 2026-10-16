@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"OpenDoor_Sound",
   "parent":{
-    "name":"Last minute",
-    "path":"Last minute.yyp",
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
