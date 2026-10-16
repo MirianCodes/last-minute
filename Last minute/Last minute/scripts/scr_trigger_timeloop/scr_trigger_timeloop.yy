@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_trigger_timeloop",
   "parent":{
-    "name":"Last minute",
-    "path":"Last minute.yyp",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

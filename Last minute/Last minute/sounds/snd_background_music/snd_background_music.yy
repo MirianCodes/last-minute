@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_background_music",
   "parent":{
-    "name":"Last minute",
-    "path":"Last minute.yyp",
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
