@@ -3,7 +3,7 @@
   "%Name":"spr_circuit",
   "bboxMode":0,
   "bbox_bottom":49,
-  "bbox_left":20,
+  "bbox_left":21,
   "bbox_right":35,
   "bbox_top":14,
   "collisionKind":1,

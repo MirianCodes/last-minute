@@ -36,6 +36,7 @@
     {"id":{"name":"janitor_body_obj","path":"objects/janitor_body_obj/janitor_body_obj.yy",},},
     {"id":{"name":"janitor_hacktohall","path":"objects/janitor_hacktohall/janitor_hacktohall.yy",},},
     {"id":{"name":"monster_door_obj","path":"objects/monster_door_obj/monster_door_obj.yy",},},
+    {"id":{"name":"monsterroom_backtohall","path":"objects/monsterroom_backtohall/monsterroom_backtohall.yy",},},
     {"id":{"name":"obj_backtoroom1","path":"objects/obj_backtoroom1/obj_backtoroom1.yy",},},
     {"id":{"name":"obj_bathroommirror","path":"objects/obj_bathroommirror/obj_bathroommirror.yy",},},
     {"id":{"name":"obj_battery","path":"objects/obj_battery/obj_battery.yy",},},
