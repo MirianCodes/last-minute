@@ -10,7 +10,7 @@ if (instance_exists(char_object)) {
 
     if (is_held) {
         // Hover beside player
-        x = char_object.x + 28;
+        x = char_object.x + 25;
         y = char_object.y + 2;
         depth = char_object.depth - 10;
         

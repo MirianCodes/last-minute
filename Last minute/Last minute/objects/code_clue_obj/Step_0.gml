@@ -34,7 +34,7 @@ if (instance_exists(char_object)) {
                 is_held = true;
                 global.has_note = true;
                 global.held_item = "code_clue";
-                show_dialogue("You picked up a note! It reads: Passcode is 1234");
+                show_dialogue("You picked up a note! It reads: Find the battery and circuit to escape... Passcode is 1234... ");
             } else {
                 show_dialogue("Your hands are full!");
             }
