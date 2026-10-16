@@ -2,18 +2,14 @@
   "$GMObject":"",
   "%Name":"obj_circuit",
   "eventList":[
-<<<<<<< Updated upstream
-=======
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
->>>>>>> Stashed changes
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_circuit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Last minute",
-    "path":"Last minute.yyp",
+    "name":"Items",
+    "path":"folders/Items.yy",
   },
   "parentObjectId":{
     "name":"obj_knob",

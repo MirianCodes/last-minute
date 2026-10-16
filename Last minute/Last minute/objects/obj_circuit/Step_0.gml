@@ -30,7 +30,7 @@ if (instance_exists(char_object)) {
             if (global.held_item == "") {
                 is_held = true;
                 global.held_item = "circuit";
-                global.knob_collected = true;
+                global.circuit_collected = true;
             }
         }
     }

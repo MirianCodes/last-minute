@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"OpenDoor_Sound",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.7890702,
+  "exportDir":"",
+  "name":"OpenDoor_Sound",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"OpenDoor_Sound.wav",
+  "volume":1.0,
+}

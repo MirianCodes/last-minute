@@ -10,7 +10,7 @@ if (instance_exists(char_object)) {
 
     if (is_held) {
         // Hover beside player
-        x = char_object.x + 25;
+        x = char_object.x + 28;
         y = char_object.y + 2;
         depth = char_object.depth - 10;
         
@@ -29,14 +29,11 @@ if (instance_exists(char_object)) {
         if (_clicked) {
             if (global.held_item == "") {
                 is_held = true;
-<<<<<<< Updated upstream
-                global.held_item = "gun";
-                global.knob_collected = true;
-=======
                 global.held_item = "weapon";
                 global.gun_collected = true;
->>>>>>> Stashed changes
             }
         }
     }
 }
+
+
