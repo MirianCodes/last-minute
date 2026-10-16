@@ -35,3 +35,5 @@ if (instance_exists(char_object)) {
         }
     }
 }
+
+
