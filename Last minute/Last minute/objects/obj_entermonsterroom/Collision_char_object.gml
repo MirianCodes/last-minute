@@ -6,7 +6,7 @@ if (!variable_global_exists("monster_door_has_circuit")) global.monster_door_has
 if (!global.monster_door_has_battery && global.held_item == "battery") {
     global.monster_door_has_battery = true;
     global.held_item = "";
-    global.battery_collected = true;
+    global.battery_collected = false;
 
     with (obj_battery) {
         instance_destroy();

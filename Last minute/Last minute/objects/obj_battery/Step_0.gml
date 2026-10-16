@@ -1,5 +1,3 @@
-// test for clipping
-
 if (global.held_item != "battery") {
     persistent = false; 
     if (mouse_check_button_pressed(mb_left)) {
