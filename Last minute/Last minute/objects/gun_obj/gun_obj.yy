@@ -8,8 +8,8 @@
   "name":"gun_obj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Items",
-    "path":"folders/Items.yy",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "parentObjectId":{
     "name":"obj_knob",

@@ -30,6 +30,8 @@ function scr_trigger_timeloop() {
         global.bathroom_unlocked = false;
         global.monster_door_has_circuit = false;
         global.monster_door_has_battery = false;
+		global.room1_unlocked = false;
+		global.janitor_unlocked = false;
         global.loop_timer = 60 * game_get_speed(gamespeed_fps);
         global.spawn_x = 75;
         global.spawn_y = 110;

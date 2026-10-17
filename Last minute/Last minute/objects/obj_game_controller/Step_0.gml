@@ -13,6 +13,8 @@ if (keyboard_check(vk_control)) {
     
     // CTRL + R: Full Game Restart (Back to title screen/start)
     if (keyboard_check_pressed(ord("R"))) {
+		global.room1_unlocked = false;
+		global.janitor_unlocked = false;
         game_restart(); 
     }
     

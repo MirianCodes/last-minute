@@ -20,7 +20,7 @@ if (entering) {
     keyboard_string = input;
 
     if (keyboard_check_pressed(vk_enter) && string_length(input) == 4) {
-        if (input == "1234") {
+        if (input == "9012") {
             global.room1_unlocked = true;
             global.held_item = "";
             entering = false;

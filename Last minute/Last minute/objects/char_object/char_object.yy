@@ -12,8 +12,8 @@
   "name":"char_object",
   "overriddenProperties":[],
   "parent":{
-    "name":"Character",
-    "path":"folders/Character.yy",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

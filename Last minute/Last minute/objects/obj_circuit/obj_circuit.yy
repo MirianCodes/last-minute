@@ -8,8 +8,8 @@
   "name":"obj_circuit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Items",
-    "path":"folders/Items.yy",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "parentObjectId":{
     "name":"obj_knob",
