@@ -1,8 +1,11 @@
+
 if (global.loop_timer > 0) {
     global.loop_timer -= 1;
-} else {
-    // 60 seconds triggers time loop
-    scr_trigger_timeloop();
+    
+    // Trigger time loop on the exact frame timer hits 0
+    if (global.loop_timer <= 0) {
+        scr_trigger_timeloop();
+    }
 }
 
 // cheat codes
@@ -44,7 +47,7 @@ if (keyboard_check(vk_control)) {
         global.loop_timer += 60 * game_get_speed(gamespeed_fps);
     }
 
-    // CTRL + K: Kill active enemy globally and spawns key
+    // CTRL + K: Kill active enemy globally and prepare key spawn
     if (keyboard_check_pressed(ord("K"))) {
         global.enemy_defeated = true;
         
