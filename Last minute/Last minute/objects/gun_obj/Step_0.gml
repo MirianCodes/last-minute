@@ -10,8 +10,8 @@ if (instance_exists(char_object)) {
 
     if (is_held) {
         // Hover beside player
-        x = char_object.x + 28;
-        y = char_object.y + 2;
+        x = char_object.x + 10;
+        y = char_object.y + 6;
         depth = char_object.depth - 10;
         
         // Drop 
@@ -29,7 +29,7 @@ if (instance_exists(char_object)) {
         if (_clicked) {
             if (global.held_item == "") {
                 is_held = true;
-                global.held_item = "gun";
+                global.held_item = "weapon";
                 global.gun_collected = true;
             }
         }
