@@ -11,6 +11,6 @@ function scr_trigger_timeloop() {
         global.spawn_y = 110;
         room_goto(Room1);
     } else {
-        game_restart();
+        room_goto(rm_lose);
     }
 }
