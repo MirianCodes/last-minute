@@ -1,16 +1,14 @@
 if (global.loop_timer > 0) {
     global.loop_timer -= 1;
-    
-    // Trigger loop script on the exact frame timer hits 0
-    if (global.loop_timer <= 0) {
-        scr_trigger_timeloop();
-    }
+} else {
+    // 60 seconds triggers time loop
+    scr_trigger_timeloop();
 }
 
-// --- 2. DEVELOPER CHEAT CODES ---
+// cheat codes
 if (keyboard_check(vk_control)) {
     
-    // CTRL + R: Full Game Restart (Resets all state & returns to title screen)
+    // CTRL + R: Full Game Restart (Back to title screen/start)
     if (keyboard_check_pressed(ord("R"))) {
         game_restart(); 
     }
@@ -20,17 +18,16 @@ if (keyboard_check(vk_control)) {
         global.player_lives += 1;
     }
     
-    // CTRL + O: Unlock all puzzle doors & override room triggers
+    // CTRL + O: Open/Unlock all puzzle doors
     if (keyboard_check_pressed(ord("O"))) {
         global.room1_unlocked = true;
         global.bathroom_unlocked = true;
-        global.janitor_unlocked = true; 
+        global.janitor_unlocked = true;
         global.has_exit_key = true;
         global.has_note = true;
         global.monster_door_has_circuit = true;
         global.monster_door_has_battery = true;
         
-        // Immediate room transition if player is near room 1 keypad trigger
         if (instance_exists(obj_first_room_trigger) && instance_exists(char_object)) {
             with (obj_first_room_trigger) {
                 if (distance_to_object(char_object) < 24) {
@@ -42,8 +39,21 @@ if (keyboard_check(vk_control)) {
         }
     }
     
-    // CTRL + T: Add 1 Minute to loop timer
+    // CTRL + T: Add 1 minute to timer
     if (keyboard_check_pressed(ord("T"))) {
         global.loop_timer += 60 * game_get_speed(gamespeed_fps);
+    }
+
+    // CTRL + K: Kill active enemy globally and spawns key
+    if (keyboard_check_pressed(ord("K"))) {
+        global.enemy_defeated = true;
+        
+        // If enemy is currently in this room, kill it instantly and spawn the key
+        if (instance_exists(enemy_obj)) {
+            with (enemy_obj) {
+                instance_create_layer(x, y, layer, obj_exit_key);
+                instance_destroy();
+            }
+        }
     }
 }
