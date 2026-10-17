@@ -4,5 +4,5 @@ if (global.has_exit_key) {
     }
     
     // Uncomment this once rm_win room is created:
-    // room_goto(rm_win);
+    room_goto(rm_win);
 }
