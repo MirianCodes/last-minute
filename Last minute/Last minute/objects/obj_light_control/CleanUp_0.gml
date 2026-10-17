@@ -1,4 +1,3 @@
-//fix bleeding
-if (surface_exists(surf)) {
-    surface_free(surf);
+if (surface_exists(light_surf)) {
+    surface_free(light_surf);
 }
