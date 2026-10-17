@@ -9,8 +9,8 @@
   "name":"obj_knob",
   "overriddenProperties":[],
   "parent":{
-    "name":"Items",
-    "path":"folders/Items.yy",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

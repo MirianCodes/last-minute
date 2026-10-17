@@ -9,8 +9,8 @@
   "name":"obj_janitorpass",
   "overriddenProperties":[],
   "parent":{
-    "name":"Items",
-    "path":"folders/Items.yy",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -8,8 +8,8 @@
   "name":"obj_backtoroom1",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/objects.yy",
+    "name":"Triggers",
+    "path":"folders/Triggers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
