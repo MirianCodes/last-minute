@@ -1,3 +1,5 @@
+
+
 if (!variable_global_exists("held_item")) global.held_item = "";
 if (!variable_global_exists("has_note")) global.has_note = false;
 
