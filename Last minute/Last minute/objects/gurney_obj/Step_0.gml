@@ -1,29 +1,26 @@
-// Grab gurney when left-clicked
-if (mouse_check_button_pressed(mb_left)) {
-    if (position_meeting(mouse_x, mouse_y, id)) {
-        is_dragging = true;
-        drag_offset_x = x - mouse_x;
-        drag_offset_y = y - mouse_y;
-    }
+
+// Start dragging only if the player is close to the gurney
+if (mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, id) && player_near(48)) {
+    is_dragging = true;
+    drag_offset_x = x - mouse_x;
+    drag_offset_y = y - mouse_y;
 }
 
-// 2. Move gurney with mouse while holding
 if (is_dragging) {
-    var _target_x = mouse_x + drag_offset_x;
-    var _target_y = mouse_y + drag_offset_y;
-    
-    // Only move horizontally if free of walls
-    if (!place_meeting(_target_x, y, obj_wall)) {
-        x = _target_x;
-    }
-    
-    // Only move vertically if free of walls
-    if (!place_meeting(x, _target_y, obj_wall)) {
-        y = _target_y;
-    }
-    
-    // Release gurney when left click is released
-    if (mouse_check_button_released(mb_left)) {
+    // Let go if the mouse is released or the player walks away
+    if (!mouse_check_button(mb_left) || !player_near(64)) {
         is_dragging = false;
+    }
+    else {
+        var _target_x = mouse_x + drag_offset_x;
+        var _target_y = mouse_y + drag_offset_y;
+
+        // Move only if the new spot is free of walls and the player
+        if (!place_meeting(_target_x, y, obj_wall) && !place_meeting(_target_x, y, char_object)) {
+            x = _target_x;
+        }
+        if (!place_meeting(x, _target_y, obj_wall) && !place_meeting(x, _target_y, char_object)) {
+            y = _target_y;
+        }
     }
 }

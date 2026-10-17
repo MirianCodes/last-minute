@@ -15,3 +15,6 @@ function can_interact() {
     if (!variable_global_exists("dialogue_closed_at")) global.dialogue_closed_at = -1000;
     return !instance_exists(dialogue_box_obj) && (current_time - global.dialogue_closed_at > 250);
 }
+function player_near(_range = 32) {
+    return instance_exists(char_object) && distance_to_object(char_object) < _range;
+}

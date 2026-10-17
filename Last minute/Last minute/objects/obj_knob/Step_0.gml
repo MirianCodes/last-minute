@@ -4,7 +4,8 @@ if (!variable_global_exists("held_item")) {
 
 if (instance_exists(char_object)) {
     var _interact_key = keyboard_check_pressed(ord("E")) || keyboard_check_pressed(vk_space);
-    var _clicked = mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, id);
+    var _clicked = mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, id) && player_near(32);
+
 
     persistent = is_held;
 
