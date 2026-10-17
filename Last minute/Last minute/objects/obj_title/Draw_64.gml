@@ -13,7 +13,7 @@ if (panel == "credits") {
     draw_rectangle(0, 0, _w, _h, false);
     draw_set_alpha(1);
     draw_set_color(c_white);
-    draw_text_ext(_w/2, 450, "CREDITS\n\nProgramming: NAME\nArt: NAME\nDesign: NAME\nSound: NAME", 50, 1400);
+    draw_text_ext(_w/2, 450, "CREDITS\n\nContributors: Rena Simon, Mirian Ventura-Garcia, Ben Layton, Ranvita Kothpalli \nArt by Mirian and Rena \n Sound Effects by Artem_Zaitsev and pagancow on freesound \n Music by @FreeMusicc", 50, 1400);
 }
 
 // buttons
