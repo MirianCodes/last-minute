@@ -7,3 +7,4 @@ if (!variable_global_exists("input_locked")) global.input_locked = false;
 if (!variable_global_exists("has_exit_key")) {
     global.has_exit_key = false;
 }
+if (!variable_global_exists("intro_active")) global.intro_active = false;

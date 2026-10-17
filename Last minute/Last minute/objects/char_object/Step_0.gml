@@ -1,3 +1,4 @@
+if (global.intro_active || instance_exists(dialogue_box_obj)) exit;
 //// 1. GET MOVEMENT INPUT
 var move_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 var move_left  = keyboard_check(vk_left)  || keyboard_check(ord("A"));
