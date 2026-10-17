@@ -1,7 +1,7 @@
 function scr_trigger_timeloop() {
     global.player_lives -= 1;
     
-    if (global.player_lives > 0) { //reset puzzles +doors+ timer
+    if (global.player_lives > 0) { // reset puzzles + doors + timer
         global.held_item = "";
         global.bathroom_unlocked = false;
         global.monster_door_has_circuit = false;
@@ -11,6 +11,9 @@ function scr_trigger_timeloop() {
         global.spawn_y = 110;
         room_goto(Room1);
     } else {
-        room_goto(rm_lose);
+        // Jump directly to the lose screen
+        if (room_exists(rm_lose)) {
+            room_goto(rm_lose);
+        }
     }
 }
