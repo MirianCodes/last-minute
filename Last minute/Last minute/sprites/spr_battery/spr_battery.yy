@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_battery",
   "bboxMode":0,
-  "bbox_bottom":53,
+  "bbox_bottom":50,
   "bbox_left":23,
   "bbox_right":45,
   "bbox_top":2,
