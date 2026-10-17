@@ -2,6 +2,30 @@ function scr_trigger_timeloop() {
     global.player_lives -= 1;
     
     if (global.player_lives > 0) { // reset puzzles + doors + timer
+		with(code_clue_obj){
+			persistent = false;
+			is_held = false;
+		}
+		with(gun_obj){
+			persistent = false;
+			is_held = false;
+		}
+		with(obj_battery){
+			persistent = false;
+			is_held = false;
+		}
+		with(obj_circuit){
+			persistent = false;
+			is_held = false;
+		}
+		with(obj_janitorpass){
+			persistent = false;
+			is_held = false;
+		}
+		with(obj_knob){
+			persistent = false;
+			is_held = false;
+		}
         global.held_item = "";
         global.bathroom_unlocked = false;
         global.monster_door_has_circuit = false;
