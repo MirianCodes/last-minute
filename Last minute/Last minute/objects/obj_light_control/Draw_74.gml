@@ -19,13 +19,13 @@ if (_vw <= 0) { _vx = 0; _vy = 0; _vw = room_width; _vh = room_height; }
 var _px = (char_object.x - _vx) * (_gw / _vw);
 var _py = (char_object.y - _vy) * (_gh / _vh) - 20;   // -20 lifts the light toward the body
 
-// Build the darkness layer
+
 surface_set_target(light_surf);
 
 // Fully black during the intro, normal darkness afterwards
 draw_clear_alpha(c_black, global.intro_active ? 1 : darkness);
 
-// Cut the soft flashlight circle out of the darkness
+
 if (cur_radius > 1) {
     gpu_set_blendmode(bm_subtract);
     draw_set_color(c_white);
