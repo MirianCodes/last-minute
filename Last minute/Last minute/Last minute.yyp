@@ -103,6 +103,7 @@
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_circuit","path":"sprites/spr_circuit/spr_circuit.yy",},},
     {"id":{"name":"spr_janitorpass","path":"sprites/spr_janitorpass/spr_janitorpass.yy",},},
+    {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},},
     {"id":{"name":"spr_knob","path":"sprites/spr_knob/spr_knob.yy",},},
     {"id":{"name":"spr_lives","path":"sprites/spr_lives/spr_lives.yy",},},
     {"id":{"name":"spr_room_trigger","path":"sprites/spr_room_trigger/spr_room_trigger.yy",},},
